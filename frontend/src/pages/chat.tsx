@@ -128,11 +128,11 @@ function ChatPage() {
 
   return (
     <div className=' h-screen flex items-center justify-center overflow-hidden flex-col'>
-      <header className="mb-4 flex w-[38%] justify-between items-center bg-slate-400 p-4 dark:text-white rounded-t-lg shadow-md">
+      <header className="mb-4 flex  w-[90%] md:w-[70%] lg:w-[38%]  justify-between items-center bg-slate-400 p-4 dark:text-white rounded-t-lg shadow-md">
         <div className="text-lg font-semibold">{username}</div> {/* Display the username */}
       </header>
 
-      <div className=' w-[38%] h-[80%]'>
+      <div className=' w-[90%] md:w-[70%] lg:w-[38%] h-[80%]'>
         <div className='h-[90%] bg-black rounded-md text-white flex flex-col overflow-y-scroll   gap-1 p-4 '>
 
 
